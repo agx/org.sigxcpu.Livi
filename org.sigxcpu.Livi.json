@@ -26,7 +26,6 @@
         "*.a"
     ],
     "modules" : [
-        "shared-modules/gudev/gudev.json",
         {
             "name" : "livi",
             "builddir" : true,

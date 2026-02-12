@@ -1,7 +1,7 @@
 {
     "app-id" : "org.sigxcpu.Livi",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "48",
+    "runtime-version" : "49",
     "sdk" : "org.gnome.Sdk",
     "command" : "livi",
     "finish-args" : [
@@ -35,8 +35,8 @@
                 {
                     "type" : "git",
                     "url" : "https://gitlab.gnome.org/guidog/livi",
-                    "tag" : "v0.3.2",
-                    "commit" : "2db04dbf8d73f8f7ad9b5e15a6f3fc716e402fb3"
+                    "tag" : "v0.4.0",
+                    "commit" : "af89873f780f604f0c3e251237824dde78dcce97"
                 }
             ]
         }

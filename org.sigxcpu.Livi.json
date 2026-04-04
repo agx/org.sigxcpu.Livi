@@ -1,7 +1,7 @@
 {
     "app-id" : "org.sigxcpu.Livi",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "49",
+    "runtime-version" : "50",
     "sdk" : "org.gnome.Sdk",
     "command" : "livi",
     "finish-args" : [
@@ -14,21 +14,9 @@
         "--filesystem=xdg-download:ro",
         "--filesystem=xdg-videos:ro"
     ],
-    "cleanup" : [
-        "/include",
-        "/lib/pkgconfig",
-        "/man",
-        "/share/doc",
-        "/share/gtk-doc",
-        "/share/man",
-        "/share/pkgconfig",
-        "*.la",
-        "*.a"
-    ],
     "modules" : [
         {
             "name" : "livi",
-            "builddir" : true,
             "buildsystem" : "meson",
             "sources" : [
                 {
